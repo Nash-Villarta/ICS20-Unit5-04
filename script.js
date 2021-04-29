@@ -2,7 +2,7 @@
 document.body.style.backgroundColor = 'lightgreen'
 //  This line listens for a click and then sends it towards function
 document.getElementById('button').addEventListener('click', newimage)
-//  Here is where the input of click allows for the new image to be loaded in place of the bird. 
+//  Here is where the input of click allows for the new image to be loaded in place of the bird.
 function newimage () {
   document.getElementById('photo').src = 'Corgi.png'
 }
